@@ -153,7 +153,7 @@ function Oakwood() {
             <p className="text-[0.6rem] tracked text-ivory-foreground/60">Eau De Parfum</p>
             <h2 className="mt-5 text-3xl font-light tracked sm:text-5xl">Oakwood</h2>
             <p className="mt-4 text-[0.65rem] tracked text-ivory-foreground/70">50 ML</p>
-            <p className="mt-6 text-2xl font-light">₹799</p>
+            <p className="mt-6 text-2xl font-light">₹1899</p>
             <p className="mt-6 max-w-sm text-sm leading-7 text-ivory-foreground/75">
               Your everyday signature scent, made to leave a lasting impression.
             </p>

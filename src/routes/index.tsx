@@ -43,14 +43,17 @@ function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       <p className="bg-background py-2.5 text-center text-[0.6rem] tracked-tight text-muted-foreground">
-        Claim two 7ml freebies with every order
+        Today only: two 4ML samples free with every order
       </p>
       <div className="flex items-center justify-between border-b border-border/60 bg-background/85 px-5 py-4 backdrop-blur-md sm:px-10">
         <span className="text-[0.6rem] tracked text-muted-foreground">New Parfum</span>
         <a href="#top" className="text-base font-medium tracked sm:text-lg">
           Sarkar
         </a>
-        <a href="#shop" className="hidden text-[0.6rem] tracked-tight text-muted-foreground hover:text-foreground sm:block">
+        <a
+          href="#shop"
+          className="hidden text-[0.6rem] tracked-tight text-muted-foreground hover:text-foreground sm:block"
+        >
           Buy Now
         </a>
       </div>
@@ -121,7 +124,10 @@ function Oakwood() {
           </div>
           <div className="mt-14 grid gap-px border border-border bg-border sm:grid-cols-3">
             {NOTES.map((n) => (
-              <div key={n.label} className="bg-background/85 px-8 py-12 text-center backdrop-blur-sm">
+              <div
+                key={n.label}
+                className="bg-background/85 px-8 py-12 text-center backdrop-blur-sm"
+              >
                 <p className="text-[0.6rem] tracked text-oak">{n.label}</p>
                 <ul className="mt-6 space-y-3">
                   {n.items.map((i) => (
@@ -162,7 +168,7 @@ function Oakwood() {
                 Shop Oakwood
               </a>
               <p className="text-[0.6rem] tracked text-ivory-foreground/50">
-                Free shipping · Two 7ml freebies
+                Free shipping · Two 4ML samples free today
               </p>
             </div>
           </div>
